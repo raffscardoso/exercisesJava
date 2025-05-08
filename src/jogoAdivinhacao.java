@@ -6,11 +6,10 @@ public class jogoAdivinhacao {
         int numAleatorio = new Random().nextInt(100);
         Scanner leitura = new Scanner(System.in);
         int tentativas = 0;
-        int numUser = 0;
 
         while(tentativas < 5){
             System.out.println("Qual o numero secreto?");
-            numUser = leitura.nextInt();
+            int numUser = leitura.nextInt();
 
 
             if(numUser == numAleatorio){
@@ -18,12 +17,11 @@ public class jogoAdivinhacao {
                 break;
             } else if (numUser < numAleatorio) {
                 System.out.println("O numero digitado e menor que o numero aleatorio!");
-            }else
-            System.out.println("O numero digitado e maior que o numero secreto!");
-
-            if (numUser != numAleatorio && tentativas == 5){
-                System.out.println("Voce falhou! O numero secreto era: " + numAleatorio);
+            }else {
+                System.out.println("O numero digitado e maior que o numero secreto!");
             }
+
+            System.out.println("Voce falhou! O numero secreto era: " + numAleatorio);
             tentativas++;
         }
     }
