@@ -1,3 +1,5 @@
+package br.com.raffs.listExercises1;
+
 public class Ex6 {
     public static void main(String[] args) {
         double precoOriginal = 99.90;

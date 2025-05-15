@@ -1,3 +1,5 @@
+package br.com.raffs.listExercises1;
+
 public class Ex5 {
     public static void main(String[] args) {
         double valorEmDolares = 100.00;

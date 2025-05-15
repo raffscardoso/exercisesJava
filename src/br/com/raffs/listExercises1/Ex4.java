@@ -1,3 +1,5 @@
+package br.com.raffs.listExercises1;
+
 public class Ex4 {
     public static void main(String[] args) {
         double precoProduto = 123.4;

@@ -1,3 +1,5 @@
+package br.com.raffs.listExercises2;
+
 public class Temp{
     public static void main(String[] args) {
         double temperatura = 30.4;
